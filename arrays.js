@@ -29,25 +29,25 @@ function accessElementInArray(array,index){
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  array = [1,2,3];
+  const array = [1,2,3];
   array.shift();
   return array;
 }
 
 function removeElementFromBeginningOfArray(array){
-  array = [1,2,3];
+  const array = [1,2,3];
   var newArray = array.slice(0);
   return newArray;
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
-  array = [1,2,3,];
+  const array = [1,2,3,];
   array.pop()
   return array;
 }
 
 function removeElementFromEndOfArray(array){
-  array = [1,2,3];
+  const array = [1,2,3];
   var newArray = array.slice(0,array.length - 1);
   return newArray;
 }
