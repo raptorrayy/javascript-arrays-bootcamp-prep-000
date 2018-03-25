@@ -27,3 +27,5 @@ function accessElementInArray(array, index){
   this.index = 'foo';
   console.log(array[2]);
 }
+
+function 
